@@ -9,3 +9,13 @@ menuBtn.onclick = function(){
         sideNav.style.right = '-250px';
     }
 }
+var scroll = new SmoothScroll('a[href*="#"]');
+
+
+
+
+    // Things to add
+   /*  spanish language translation 
+    adding modals for sign up and sign in 
+    extending options to two or three page including the courses page
+    */

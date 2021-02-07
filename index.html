@@ -5,9 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Stylesheet -->
+         <!-- Stylesheet -->
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Smooth Scroll CDN -->
+
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
     <title>Office Project</title>
 </head>
 
@@ -31,12 +37,12 @@
         </div>
         <nav id="sideNav">
             <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">ABOUT US</a></li>
-                <li><a href="#">FEATURES</a></li>
-                <li><a href="#">COURSES</a></li>
-                <li><a href="#">OFFERS</a></li>
-                <li><a href="#">CONTACT</a></li>
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">ABOUT US</a></li>
+                <li><a href="#features">FEATURES</a></li>
+                <li><a href="#courses">COURSES</a></li>
+                <li><a href="#offer">OFFERS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
         </nav>
     </section>
@@ -131,7 +137,7 @@
             <img src="images/offer.jpg" alt="">
         </div>
         <div class="about-right">
-            <div class="about-text">
+            <div class="about-text offer-text">
                 <h1>Limitless learning, <br>limitless possibilities</h1>
                 <span class="square"></span>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil possimus debitis dolorem optio
@@ -162,7 +168,7 @@
             </div>
         </div>
     </section>
-    <div id="footer">
+    <section id="footer">
         <footer class="container footer-row">
             <hr>
             <div class="footer-left-col">
@@ -191,21 +197,28 @@
             </div>
             <div class="footer-right-col">
                 <div class="footer-info">
-                    <div class="copy-right-text">
-                        <small>support@growth.com</small>
+                    <div class="copyright-text">
+                        <small>support@growth.com</small><br>
                         <small>copyright 2020 growth</small>
-
                     </div>
-                    <div class="footer-logo"></div>
-                    <img src="/images/logo.jpg" class="logo" alt="Company logo">
-                    <select name="lang" id="select">
-                        <option>English</option>
-                        <option>Hindi</option>
-                    </select>
+                    <div class="footer-logo">
+                        <img src="/images/logo.jpg" class="logo" alt="Company logo">
+                        <select name="lang" id="select">
+                            <option>English</option>
+                            <option>Spanish</option>
+                        </select>
+                    </div>
                 </div>
             </div>
         </footer>
-    </div>
+    </section>
+         <!-- Social Icons -->
+        <div class="social-icons">
+            <img src="/images/facebook.png" alt="facebook icon">
+            <img src="/images/instagram.png" alt="instagram icon">
+            <img src="/images/twitter.png" alt="twitter icon">
+            <img src="/images/linkedin.png" alt="linkedin icon">
+        </div>
 
     <img src="images/menu.jpg" id="menuBtn" class="navIcon">
 
